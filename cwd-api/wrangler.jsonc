@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cwd",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-31",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "CWD_DB",
+      "database_name": "CWD_DB",
+      "database_id": "4d24f455-3be9-4bae-9c75-e4e7aac4095c"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "CWD_AUTH_KV",
+      "id": "86e8dda22697492988023555675baf17"
+    }
+  ]
+}
